@@ -1,3 +1,13 @@
+/* estilo del boton */
 .btn-animal{
     background-color: orangered;
     color:white;} 
+
+/* tamaño de las imagenes */
+img{
+    width: 100vh;
+    height: 60vh;}
+
+h1{
+    color: rgb(255, 42, 42);
+}
