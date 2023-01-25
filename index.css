@@ -6,8 +6,15 @@
 /* tamaño de las imagenes */
 img{
     width: 100vh;
-    height: 60vh;}
+    height: 75vh;
+    border-radius: 20px;
+    margin: 20px;}
 
 h1{
-    color: rgb(255, 42, 42);
+    color: rgb(255, 255, 255);
+    font-family: Algerian;
 }
+
+body{
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);}
+

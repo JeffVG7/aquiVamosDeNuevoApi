@@ -1,5 +1,3 @@
-console.log("hello world!")
-
 //con esto estamos exportando la api que vamos a trabajar
 const URL = "https://api.thecatapi.com/v1/images/search";
 
