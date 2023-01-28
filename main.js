@@ -1,10 +1,10 @@
 //con esto estamos exportando la api que vamos a trabajar
-const URL = "https://api.thecatapi.com/v1/images/search";
+const API = "https://api.thecatapi.com/v1/images/search";
 
 //aqui estamos sacando todos los valores que sacaremos de la api, al solo sacar imagenes aleatorias solo estamos estamos extrayendo la direccion de cada imagen
 async function myCat () {
     //aqui estoy extrayendo la api
-    const res = await fetch(URL);
+    const res = await fetch(API);
 
     //aqui estoy traduciendo lo extraido
     const data = await res.json();
